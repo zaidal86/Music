@@ -1,0 +1,26 @@
+{
+  "name": "music-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "knip": "knip"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "canvas": "^2.11.2",
+    "date-fns-tz": "^2.0.0",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.4.2",
+    "yasha": "github:davidzeng0/yasha#dist"
+  },
+  "devDependencies": {
+    "knip": "^3.5.0"
+  }
+}
